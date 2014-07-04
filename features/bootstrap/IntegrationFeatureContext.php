@@ -68,7 +68,7 @@ class IntegrationFeatureContext implements SnippetAcceptingContext
     public function iShouldSeeThatIAmNotAuthenticated()
     {
         if ($this->authenticated) {
-            throw new Exception("Expected to be authenticated but was not");
+            throw new Exception("Expected not to be authenticated but was");
 
         }
     }
