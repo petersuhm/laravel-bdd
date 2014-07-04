@@ -122,6 +122,9 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		'Suhm\Storage\StorageServiceProvider',
+		'Suhm\Auth\AuthServiceProvider',
+
 	),
 
 	/*
