@@ -1,0 +1,5 @@
+default:
+    suites:
+        integration:
+            paths:    [ features/integration ]
+            contexts: [ IntegrationFeatureContext ]
