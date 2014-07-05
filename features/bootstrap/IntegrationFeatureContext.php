@@ -11,7 +11,7 @@ use Suhm\Entity\User;
  */
 class IntegrationFeatureContext implements SnippetAcceptingContext
 {
-    use LaravelFeatureContext;
+    use LaravelBdd\Behat\Laravel;
 
     /**
      * Initializes context.
@@ -21,7 +21,7 @@ class IntegrationFeatureContext implements SnippetAcceptingContext
      */
     public function __construct()
     {
-        $this->prepareApplication();
+        $this->prepareApplication(__DIR__.'/../../bootstrap/start.php');
     }
 
     /**

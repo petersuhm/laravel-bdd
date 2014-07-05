@@ -8,7 +8,8 @@
 	},
 	"require-dev": {
 		"behat/behat": "~3.0",
-		"phpspec/phpspec": "~2.0"
+		"phpspec/phpspec": "~2.0",
+		"suhm/laravel-bdd-helpers": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
